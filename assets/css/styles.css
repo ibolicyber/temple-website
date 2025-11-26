@@ -133,3 +133,7 @@ img {
   top: 1rem;
   r: 1.5rem;
 }
+
+.show-menu{
+  top: 0;
+}
