@@ -62,3 +62,41 @@ img {
   overflow: hidden;
 }
 
+.header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: transparent;
+  z-index: var(--z-fixed);
+}
+
+.nav{
+  position: relative;
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__logo {
+  display: flex;
+  align-items: center;
+  column-gap: .25rem;
+  color: var(--black-color);
+}
+
+.nav__logo i{
+  font-size: 2rem;
+}
+
+.nav__logo span{
+  font-weight: var(--font-semi-bold);
+}
+
+.nav__toggle,
+.nav__close{
+  display: flex;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
