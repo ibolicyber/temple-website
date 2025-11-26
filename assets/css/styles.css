@@ -100,3 +100,36 @@ img {
   font-size: 1.5rem;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1150px){
+  .nav__menu{
+    position: fixed;
+    top: -120%;
+    left: 0;
+    background-color: hsla(353, 98%, 90%, .4);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    width: 100%;
+    padding-block: 5rem 4rem;
+    box-shadow: 0 4px 24px hsla(353, 90%, 4%, .2);
+    transition: top .4s;
+  }
+}
+
+.nav__list{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.nav__link{
+  color: var(--black-color);
+  font-weight: var(--font-semi-bold);
+}
+
+.nav__close{
+  position: absolute;
+  top: 1rem;
+  r: 1.5rem;
+}
