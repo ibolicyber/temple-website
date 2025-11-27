@@ -187,3 +187,31 @@ img {
 .home__button:hover{
   box-shadow: 0 16px 48px hsla(353, 90%, 56%, .4);
 }
+
+
+.home__lantern-1,
+.home__lantern-2{
+  position: absolute;
+  width: 50px;
+}
+
+.home__lantern-1{
+  top: 2.5rem;
+  right: .5rem;
+  rotate: 15deg;
+}
+
+.home__lantern-2{
+  left: .75rem;
+  bottom: -5rem;
+  rotate: -15deg;
+}
+
+.home__images img{
+  position: absolute;
+  max-width: initial;
+  width: 800px;
+  right: -9.2rem;
+  bottom: 0;
+  filter: saturate(1.3);
+}
