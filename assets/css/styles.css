@@ -303,5 +303,20 @@ img {
   ::-webkit-scrollbar-thumb{
     background-color: hsl(353, 12%, 25%);
   }
-  
+
+}
+
+@media screen and (min-width: 2048px) and (min-height: 1100px){
+  .container{
+    max-width: 1300px;
+  }
+
+  .container__home{
+    height: 100vh;
+    display: grid;
+  }
+
+  .home__data{
+    align-self: center;
+  }
 }
