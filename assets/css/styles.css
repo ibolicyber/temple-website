@@ -232,3 +232,15 @@ img {
   }
 }
 
+@media screen and (min-width: 576px){
+   .home__data{
+    max-width: 380px;
+    margin-inline: auto;
+   }
+
+   .home__images img{
+    width: initial;
+    right: 0;
+   }
+}
+
