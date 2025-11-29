@@ -320,3 +320,13 @@ img {
     align-self: center;
   }
 }
+
+@media screen and (max-width: 1150px) and (min-height: 900px){
+  .container__home{
+    display: grid;
+  }
+
+   .home__data{
+    align-self: center;
+  }
+}
