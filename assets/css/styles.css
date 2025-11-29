@@ -295,4 +295,13 @@ img {
     bottom: -3.5rem;
   }
 
+  ::-webkit-scrollbar{
+    width: .6rem;
+    background-color: hsl(353, 12%, 10%);
+  }
+
+  ::-webkit-scrollbar-thumb{
+    background-color: hsl(353, 12%, 25%);
+  }
+  
 }
