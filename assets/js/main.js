@@ -16,6 +16,8 @@ if(navClose){
 }
 
 
+
+
 const navLink = document.querySelectorAll('.nav__link')
 
 const linkAction = () =>{
@@ -24,6 +26,9 @@ const linkAction = () =>{
     navMenu.classList.remove('show-menu')
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
+
+
+
 
 
 const blurHeader = () => {
@@ -35,6 +40,9 @@ const blurHeader = () => {
 window.addEventListener('scroll', blurHeader) 
 
 
+
+
+
 gsap.from('.home__img-1',     5 ,   { opacity: 0, x:  400})
 gsap.from('.home__img-6',     1.5 , { opacity: 0, y:  200, delay:  .1, ease: 'back.out(1.5)'})
 gsap.from('.home__img-3',     1.5 , { opacity: 0, y:  400, delay:  .3, ease: 'back.out(1.5)'})
@@ -44,6 +52,9 @@ gsap.from('.home__img-4',     1.5 , { opacity: 0, y:  200, delay: 1.8, ease: 'ba
 gsap.from('.home__data' ,     1.5 , { opacity: 0, y: -100, delay: 2.5, ease: 'back.out(1.5)'})
 gsap.from('.home__lantern-1', 1.5 , { opacity: 0, y:   70, delay:  .3, ease: 'back.out(1.5)'})
 gsap.from('.home__lantern-2', 1.5 , { opacity: 0, y:  -70, delay: 3.5, ease: 'back.out(1.5)'})
+
+
+
 
 
 const sakura = new Sakura('.sakura-petals')
